@@ -33,7 +33,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
           aws-region: us-east-1
 
-      - name: Create S3 bucket
+      - name: Create S3 bucket new
         run: |
           aws s3api create-bucket --bucket weather11 --region us-east-1
         continue-on-error: true
