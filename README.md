@@ -1,2 +1,1 @@
-# awsCaseStudyproject
-weather app
+# AWS-Case_study
